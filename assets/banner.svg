@@ -1,24 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 230" width="1280" height="230" role="img" aria-label="Zeno - Currently in Uni">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260" role="img" aria-label="Zeno - Currently in Uni - Rust, TypeScript, Python, MATLAB">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#4a4a4a"/>
-      <stop offset="55%" stop-color="#222222"/>
-      <stop offset="100%" stop-color="#0a0a0a"/>
+      <stop offset="0%" stop-color="#333333"/>
+      <stop offset="42%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#060606"/>
     </linearGradient>
-    <linearGradient id="waveA" x1="0" y1="0" x2="0" y2="1">
+    <radialGradient id="glow" cx="50%" cy="40%" r="52%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.11"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="46%" r="72%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" fill-opacity="0.075"/>
+    </pattern>
+    <linearGradient id="w1" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="waveB" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#000000" stop-opacity="0.40"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    <linearGradient id="w2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.055"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="w3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.60"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0" result="g"/>
+      <feComponentTransfer in="g">
+        <feFuncA type="linear" slope="0.05"/>
+      </feComponentTransfer>
+    </filter>
   </defs>
-  <rect width="1280" height="230" fill="url(#bg)"/>
-  <path d="M0,148 C220,188 380,104 640,136 C900,168 1040,116 1280,158 L1280,230 L0,230 Z" fill="url(#waveA)"/>
-  <path d="M0,182 C260,218 420,146 700,172 C960,196 1080,160 1280,192 L1280,230 L0,230 Z" fill="url(#waveB)"/>
+
+  <rect width="1280" height="260" fill="url(#bg)"/>
+  <rect width="1280" height="260" fill="url(#dots)"/>
+  <rect width="1280" height="260" fill="url(#glow)"/>
+
+  <path d="M0,170 C210,208 360,126 640,154 C910,180 1050,132 1280,170 L1280,260 L0,260 Z" fill="url(#w1)"/>
+  <path d="M0,198 C240,230 400,162 690,188 C950,210 1090,178 1280,206 L1280,260 L0,260 Z" fill="url(#w2)"/>
+  <path d="M0,226 C260,252 430,200 720,224 C980,246 1100,218 1280,240 L1280,260 L0,260 Z" fill="url(#w3)"/>
+
+  <rect width="1280" height="260" fill="url(#vignette)"/>
+  <rect width="1280" height="260" filter="url(#grain)"/>
+
   <g text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-    <text x="640" y="104" font-size="74" font-weight="700" fill="#f7f7f7" letter-spacing="0.5">Zeno</text>
-    <text x="640" y="150" font-size="21" fill="#cfcfcf" opacity="0.95" letter-spacing="0.3">Currently in Uni &#183; Rust &#183; TypeScript &#183; Python &#183; MATLAB</text>
+    <text x="640" y="118" font-size="86" font-weight="700" fill="#fafafa" letter-spacing="1.5">Zeno</text>
+    <line x1="596" y1="141" x2="684" y2="141" stroke="#ffffff" stroke-opacity="0.30" stroke-width="1.5"/>
+    <text x="640" y="172" font-size="17.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" fill="#c9c9c9" letter-spacing="2.2">CURRENTLY IN UNI &#183; RUST &#183; TYPESCRIPT &#183; PYTHON &#183; MATLAB</text>
   </g>
 </svg>
