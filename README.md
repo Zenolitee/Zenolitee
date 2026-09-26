@@ -29,8 +29,5 @@ I build small, sharp tools for the web. TypeScript and JavaScript mostly, React 
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ohmygot-dark.png"/>
-    <img src="assets/ohmygot-light.png" alt="Person tells the computer: say i am alive. Computer replies: I AM ALIVE. Person: oh my god." width="520"/>
-  </picture>
+  <img src="assets/ohmygot.jpg" alt="Person tells the computer: say i am alive. Computer replies: I AM ALIVE. Person: oh my god." width="520"/>
 </p>
