@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Zenolitee">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Building%20random%20stuff;Probably%20debugging%20CSS&font=Fira+Code&center=true&width=520&height=42&color=777777&vCenter=true&pause=1200&size=20" alt="Building random stuff"/>
+    <img src="https://readme-typing-svg.demolab.com/?lines=Lurking;Procrastinating;Building%20random%20stuff;Probably%20debugging%20CSS;Scrolling%20instead%20of%20coding;Reading%20about%20it%20instead%20of%20doing%20it&font=Fira+Code&center=true&width=520&height=42&color=777777&vCenter=true&pause=1200&size=20" alt="Lurking"/>
   </a>
 </p>
 
@@ -26,4 +26,11 @@ I build small, sharp tools for the web. TypeScript and JavaScript mostly, React 
   <img alt="Playwright" src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge"/>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ohmygot-dark.png"/>
+    <img src="assets/ohmygot-light.png" alt="Person tells the computer: say i am alive. Computer replies: I AM ALIVE. Person: oh my god." width="520"/>
+  </picture>
 </p>
