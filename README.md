@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/banner.svg?v=2" alt="Zeno · Try to look and ask around. I won't be here for long" width="100%"/>
+  <img src="assets/banner.svg?v=3" alt="Zeno" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/Zenolitee">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Building%20random%20stuff;Currently%20in%20Uni;TypeScript%20%C2%B7%20JavaScript%20%C2%B7%20React%20%C2%B7%20Node.js;Probably%20debugging%20CSS&font=Fira+Code&center=true&width=520&height=42&color=777777&vCenter=true&pause=1200&size=20" alt="Building random stuff · Currently in Uni"/>
+    <img src="https://readme-typing-svg.demolab.com/?lines=Building%20random%20stuff;Probably%20debugging%20CSS&font=Fira+Code&center=true&width=520&height=42&color=777777&vCenter=true&pause=1200&size=20" alt="Building random stuff"/>
   </a>
 </p>
 
