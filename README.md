@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg?v=4" alt="Zeno" width="100%"/>
+  <img src="assets/ohmygot.jpg" alt="Person tells the computer: say i am alive. Computer replies: I AM ALIVE. Person: oh my god." width="520"/>
 </p>
 
 <p align="center">
@@ -9,10 +9,6 @@
 </p>
 
 I build small, sharp tools for the web. TypeScript and JavaScript mostly, React when it needs a UI, Python when it is the fastest path to done. Currently studying Computer Science.
-
-<p align="center">
-  <img src="assets/ohmygot.jpg" alt="Person tells the computer: say i am alive. Computer replies: I AM ALIVE. Person: oh my god." width="520"/>
-</p>
 
 ### Toolbox
 
