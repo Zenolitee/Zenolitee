@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Zeno · Currently in Uni · TypeScript · JavaScript · React · Node.js" width="100%"/>
+  <img src="assets/banner.svg?v=2" alt="Zeno · Try to look and ask around. I won't be here for long" width="100%"/>
 </p>
 
 <p align="center">
