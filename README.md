@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Zeno — Currently in Uni · Rust · TypeScript · Python · MATLAB" width="100%"/>
+  <img src="assets/banner.svg" alt="Zeno · Currently in Uni · Rust · TypeScript · Python · MATLAB" width="100%"/>
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
   </a>
 </p>
 
-I build small, sharp tools. Rust for the systems bits, TypeScript for the web, Python when it is the fastest path to done — currently an Aeronautical Engineering student.
+I build small, sharp tools. Rust for the systems bits, TypeScript for the web, Python when it is the fastest path to done. Currently studying Computer Science.
 
 ### Toolbox
 
