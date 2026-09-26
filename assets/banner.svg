@@ -1,55 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260" role="img" aria-label="Zeno">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#333333"/>
-      <stop offset="42%" stop-color="#1c1c1c"/>
-      <stop offset="100%" stop-color="#060606"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0%" stop-color="#2c2e31"/>
+      <stop offset="48%" stop-color="#1c1e20"/>
+      <stop offset="100%" stop-color="#0d0f10"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="48%" r="52%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.11"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.04"/>
+    <radialGradient id="light" cx="18%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="vignette" cx="50%" cy="46%" r="72%">
-      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.45"/>
-    </radialGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" fill-opacity="0.075"/>
-    </pattern>
-    <linearGradient id="w1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="w2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.055"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="w3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#000000" stop-opacity="0.60"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
-    </linearGradient>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1278" height="258" rx="20"/>
+    </clipPath>
     <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="n"/>
-      <feColorMatrix in="n" type="saturate" values="0" result="g"/>
-      <feComponentTransfer in="g">
-        <feFuncA type="linear" slope="0.05"/>
-      </feComponentTransfer>
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" seed="19"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.06 0"/>
     </filter>
   </defs>
-
-  <rect width="1280" height="260" fill="url(#bg)"/>
-  <rect width="1280" height="260" fill="url(#dots)"/>
-  <rect width="1280" height="260" fill="url(#glow)"/>
-
-  <path d="M0,170 C210,208 360,126 640,154 C910,180 1050,132 1280,170 L1280,260 L0,260 Z" fill="url(#w1)"/>
-  <path d="M0,198 C240,230 400,162 690,188 C950,210 1090,178 1280,206 L1280,260 L0,260 Z" fill="url(#w2)"/>
-  <path d="M0,226 C260,252 430,200 720,224 C980,246 1100,218 1280,240 L1280,260 L0,260 Z" fill="url(#w3)"/>
-
-  <rect width="1280" height="260" fill="url(#vignette)"/>
-  <rect width="1280" height="260" filter="url(#grain)"/>
-
-  <g text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-    <text x="640" y="152" font-size="86" font-weight="700" fill="#fafafa" letter-spacing="1.5">Zeno</text>
+  <g clip-path="url(#frame)">
+    <rect x="1" y="1" width="1278" height="258" rx="20" fill="url(#bg)"/>
+    <rect x="1" y="1" width="1278" height="258" fill="url(#light)"/>
+    <path d="M705 -30 L865 -30 L1065 290 L905 290 Z" fill="#ffffff" fill-opacity="0.05"/>
+    <path d="M855 -30 L927 -30 L1127 290 L1055 290 Z" fill="#ffffff" fill-opacity="0.17"/>
+    <circle cx="1104" cy="130" r="210" fill="none" stroke="#ffffff" stroke-width="64" stroke-opacity="0.10"/>
+    <circle cx="1104" cy="130" r="132" fill="#000000" fill-opacity="0.18" stroke="#ffffff" stroke-width="18" stroke-opacity="0.24"/>
+    <path d="M990 0 L1152 0 L1314 260 L1152 260 Z" fill="#090a0a" fill-opacity="0.78"/>
+    <path d="M1040 0 L1064 0 L1226 260 L1202 260 Z" fill="#ffffff" fill-opacity="0.60"/>
+    <path d="M81 67 L89 67 L89 193 L81 193 Z" fill="#f5f5f5"/>
+    <text x="112" y="164" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="-2" fill="#fafafa">Zeno</text>
+    <path d="M0 248 C240 238 460 258 700 248 S1040 238 1280 248" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="16"/>
+    <rect x="0" y="0" width="1280" height="260" fill="#ffffff" filter="url(#grain)" opacity="0.45"/>
+    <rect x="1" y="1" width="1278" height="258" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
   </g>
 </svg>
