@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="assets/ohmygot.jpg" alt="Person tells the computer: say i am alive. Computer replies: I AM ALIVE. Person: oh my god." width="520"/>
+  <a href="https://zenolitee.github.io/portfolio-zen/">
+    <img src="assets/blackhole.svg" alt="Animated ASCII black hole — links to my portfolio" width="100%"/>
+  </a>
 </p>
+
+<!-- <p align="center">
+  <img src="assets/ohmygot.jpg" alt="Person tells the computer: say i am alive. Computer replies: I AM ALIVE. Person: oh my god." width="520"/>
+</p> -->
 
 <p align="center">
   <a href="https://github.com/Zenolitee">
     <img src="https://readme-typing-svg.demolab.com/?lines=Lurking;Procrastinating;Building%20random%20stuff;Probably%20debugging%20CSS;Scrolling%20instead%20of%20coding;Reading%20about%20it%20instead%20of%20doing%20it&font=Fira+Code&center=true&width=520&height=42&color=777777&vCenter=true&pause=1200&size=20" alt="Lurking"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://zenolitee.github.io/portfolio-zen/">
-    <img src="assets/blackhole.svg" alt="Animated ASCII black hole — links to my portfolio" width="100%"/>
   </a>
 </p>
 
