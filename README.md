@@ -8,6 +8,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://zenolitee.github.io/portfolio-zen/">
+    <img src="assets/blackhole.svg" alt="Animated ASCII black hole — links to my portfolio" width="100%"/>
+  </a>
+</p>
+
 I build small, sharp tools for the web. TypeScript and JavaScript mostly, React when it needs a UI, Python when it is the fastest path to done. Currently studying Computer Science.
 
 ### Toolbox
