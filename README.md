@@ -25,9 +25,9 @@ I build small, sharp tools for the web. TypeScript and JavaScript mostly, React 
 ### Languages and tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,tailwind,html,css,py,rust,php&perline=12" alt="TypeScript, JavaScript, React, Next.js, Node.js, Express, Tailwind CSS, HTML, CSS, Python, Rust, PHP"/>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,tailwind,html,css,py&perline=10" alt="TypeScript, JavaScript, React, Next.js, Node.js, Express, Tailwind CSS, HTML, CSS, Python"/>
   <br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,supabase,firebase,prisma,git,github,postman,discordjs,vscode,linux&perline=12" alt="PostgreSQL, MySQL, SQLite, Supabase, Firebase, Prisma, Git, GitHub, Postman, discord.js, VS Code, Linux"/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,supabase,postman&perline=10" alt="PostgreSQL, MySQL, SQLite, Supabase, Postman"/>
 </p>
 
 ### GitHub stats
