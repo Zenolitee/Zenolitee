@@ -33,3 +33,26 @@ I build small, sharp tools for the web. TypeScript and JavaScript mostly, React 
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
+
+### Connect with me
+
+<p align="center">
+  <a href="https://linkedin.com/in/eric-myles-panganiban-2833ba28a"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40"/></a>
+  <a href="mailto:panganiban.ericmyles@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="40"/></a>
+  <a href="https://zenolitee.github.io/portfolio-zen/"><img src="https://img.shields.io/badge/Portfolio-0b0b0c?style=for-the-badge&logoColor=white" alt="Portfolio" height="40"/></a>
+</p>
+
+### Languages and tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,tailwind,html,css,py,rust,php&perline=12" alt="TypeScript, JavaScript, React, Next.js, Node.js, Express, Tailwind CSS, HTML, CSS, Python, Rust, PHP"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,supabase,firebase,prisma,git,github,postman,discordjs,vscode,linux&perline=12" alt="PostgreSQL, MySQL, SQLite, Supabase, Firebase, Prisma, Git, GitHub, Postman, discord.js, VS Code, Linux"/>
+</p>
+
+### GitHub stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zenolitee&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Most used languages" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Zenolitee&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" alt="GitHub stats" height="170"/>
+</p>
