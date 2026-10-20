@@ -19,8 +19,6 @@ I build small, sharp tools for the web. TypeScript and JavaScript mostly, React 
 ### Connect with me
 
 <p align="center">
-  <a href="https://linkedin.com/in/eric-myles-panganiban-2833ba28a"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40"/></a>
-  <a href="mailto:panganiban.ericmyles@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="40"/></a>
   <a href="https://zenolitee.github.io/portfolio-zen/"><img src="https://img.shields.io/badge/Portfolio-0b0b0c?style=for-the-badge&logoColor=white" alt="Portfolio" height="40"/></a>
 </p>
 
