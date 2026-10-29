@@ -33,6 +33,6 @@ I build small, sharp tools for the web. TypeScript and JavaScript mostly, React 
 ### GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zenolitee&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" alt="Most used languages" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Zenolitee&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" alt="GitHub stats" height="170"/>
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Most used languages" height="170"/>
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" height="170"/>
 </p>
